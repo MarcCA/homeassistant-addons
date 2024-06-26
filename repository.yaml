@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Home assistant Addon Repo, home of the Samsung the Frame art changer addon
+name: Samsung Frame Test
 url: "https://github.com/MarcCA/homeassistant-addons"
 maintainer: Marc 
