@@ -7,10 +7,10 @@ RUN \
 RUN \
     pip install -I git+https://github.com/NickWaterton/samsung-tv-ws-api.git
 # Copy data for add-on
-COPY run.sh /
-COPY art.py /
+#COPY run.sh /
+#COPY art.py /
 
 
-RUN chmod a+x /run.sh
+#RUN chmod a+x /run.sh
 
-CMD [ "/run.sh" ]
+#CMD [ "/run.sh" ]
