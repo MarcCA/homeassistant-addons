@@ -5,7 +5,7 @@ RUN \
   apk add --no-cache \
     python3 py3-pip
 RUN \
-    pip3 install samsungtvws[async,encrypted]
+    pip install -I git+https://github.com/NickWaterton/samsung-tv-ws-api.git
 # Copy data for add-on
 COPY run.sh /
 COPY art.py /
